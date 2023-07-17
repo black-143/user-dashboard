@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  margin-left: 325px;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d4d5d4;
+}
+.cur-page {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+.gap {
+  flex-grow: 1;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 6rem;
+  color: lightgray;
+  font-weight: 800;
+  font-style: normal;
+  font-family: "Rubik", sans-serif;
+}
+.comingsoon-container {
+  display: grid;
+  grid-template-columns: 16% 1fr;
+}
+.comingsoon-sidebar {
+  background-color: #4154c9;
+  height: 100%;
+  width: 250px;
+  margin-top: -65px;
+  border-radius: 30px;
+}

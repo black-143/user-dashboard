@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* Styles for the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styles for the box */
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+/* Styles for the image */
+.profile {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* Styles for the name */
+.users {
+  font-size: 16px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Optional styles for the heading */
+.heading {
+  text-align: center;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #f6f6f6;
+}
+
+/* Optional styles for the heading's h3 tag */
+.heading h3 {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px 20px 20px;
+}
+.user-container {
+  height: 475px;
+  width: 550px;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+/* Styles for each user */
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0px 0px 5px;
+  padding: 5px;
+  border-bottom: 1px solid #d4d5d4;
+}
+
+.user:last-child {
+  border-bottom: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+  border-radius: 10px;
+}

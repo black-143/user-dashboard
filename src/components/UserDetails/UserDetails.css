@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+.sidebar {
+  background-color: #4154c9;
+  height: 100%;
+  margin-top: -65px;
+  width: 250px;
+  border-radius: 30px;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.details-container {
+  display: grid;
+  grid-template-columns: 16% repeat(2, 1fr);
+}
+.profile-details {
+  padding-left: 50px;
+  margin-top: 10px;
+  height: 100vh;
+  border-right: 1px solid #d4d5d4;
+}
+.ruler {
+  border-bottom: 1px solid #d4d5d4;
+  margin-right: 50px;
+  margin-left: 35px;
+}
+.profile-details table {
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.profile-details caption {
+  color: #9b9a9b;
+  text-align: center;
+}
+.address-caption caption {
+  text-align: left;
+}
+.profile-details:last-child {
+  border-right: none;
+}
+.profile-details p {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+.profile-details h3 {
+  font-size: 19px;
+  margin-left: 180px;
+  font-family: "Rubik", sans-serif;
+}
+.user-avatar {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.user-map {
+  width: 530px;
+  height: 300px;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding-top: 35px;
+}
+.profile-details td,
+caption,
+dl,
+dt {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Rubik", sans-serif;
+}
+tr td:nth-child(3n + 1),
+tr td:nth-child(3n + 2) {
+  color: #9b9a9b;
+}
+
+tr td:not(:nth-child(3n + 1)):not(:nth-child(3n + 2)) {
+  color: #000000;
+  font-weight: bold;
+}
+
+.profile-details tr {
+  text-align: right;
+}
+.value {
+  font-weight: bold;
+}
+
+.location {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+.location p {
+  font-weight: bold;
+  font-size: 14px;
+}
+.location td {
+  font-size: 14px;
+}
+.user-details img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.user-details span {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
